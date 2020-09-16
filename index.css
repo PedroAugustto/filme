@@ -1,0 +1,22 @@
+.navbar {background-color: brown; border-bottom:#0000004b solid 5px;}
+body {background-color: #000;}
+.dropdown-menu { background-color: #741E1E;}
+.dropdown-item { color: #fff;}
+.dropdown-item:hover { background-color: brown; color: gray}
+::selection {color: #fff; background-color: brown;}
+
+.conteudo {margin: 0 20%;}
+.box{background-color: #fff;border: brown solid 5px; border-radius: 10px;}
+.box-text {padding: 15px;}
+.titulo {text-align: center;color: #fff;background-color: brown;padding: 10px;}
+.poster img{height: 300px;margin: 10px;float: left;}
+.details {padding:75px;}
+
+.sobre {margin: 0 20%;}
+.titulo-sobre {text-align: center;color: #fff;padding: 10px;}
+.sobre {text-align: center;color: #fff;padding-top: 250px;}
+.sobre span {font-size: 50px;color: #fff;}
+@media only screen and (max-width: 600px) {
+    .conteudo{margin:0}
+    .poster img{float: none; margin: 10px 25%;}
+}
